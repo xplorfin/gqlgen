@@ -1,0 +1,14 @@
+version: "1"
+rules:
+  - base: master
+    upstream: 99designs:master
+    mergeMethod: hardreset
+    mergeUnstable: false
+  - base: entropy
+    upstream: 99designs:master
+    assignees:
+      - jakesyl
+    reviewers:
+      - jakesyl
+    conflictReviewers:
+      - jakesyl
