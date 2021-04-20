@@ -3,8 +3,9 @@ package testserver
 import (
 	"context"
 	"fmt"
-	"github.com/99designs/gqlgen/graphql/handler/cache"
 	"time"
+
+	"github.com/99designs/gqlgen/graphql/handler/cache"
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/handler"

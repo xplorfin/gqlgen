@@ -1,10 +1,11 @@
 package transport
 
 import (
-	"github.com/99designs/gqlgen/graphql/handler/cache"
 	"net/http/httptest"
 	"testing"
 	"time"
+
+	"github.com/99designs/gqlgen/graphql/handler/cache"
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
