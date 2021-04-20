@@ -69,6 +69,7 @@ const key = "key"
 
 func WithCacheControlExtension(ctx context.Context) context.Context {
 	cache := &CacheControlExtension{Version: 1}
+	//nolint:staticcheck // no need to avoid collisions in the cache
 	return context.WithValue(ctx, key, cache)
 }
 
