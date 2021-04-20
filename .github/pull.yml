@@ -5,10 +5,10 @@ rules:
     mergeMethod: hardreset
     mergeUnstable: false
   - base: entropy
-    upstream: 99designs:master    # change `wei` to the owner of upstream repo
-    assignees:              # Optional
+    upstream: 99designs:master
+    assignees:
       - jakesyl
-    reviewers:              # Optional
+    reviewers:
       - jakesyl
-    conflictReviewers:      # Optional, on merge conflict assign a reviewer
+    conflictReviewers:
       - jakesyl
